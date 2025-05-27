@@ -22,7 +22,7 @@ class Rectangle {
 }
 
 class Square extends Animal {
-	onstructor(side) {
+	constructor(side) {
     if (side <= 0) {
       throw new Error("Side must be a positive integer.");
     }
